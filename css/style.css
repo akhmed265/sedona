@@ -1,0 +1,394 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+
+.wrapper {
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FFFFFF;
+}
+
+.hd-menu {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+
+.hd-menu-list {
+  display: flex;
+  list-style: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.list:not(.list:last-child) {
+  margin-right: 33px;
+}
+
+.list:nth-child(1) {
+  margin-left: 71px;
+} 
+
+.hd-list-link {
+  position: relative;
+	color: #00a650; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 3; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+}
+
+.hd-list-link:after {
+  content: "";
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #756257; /*задаём цвет линии*/
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.hd-list-link:hover:after,
+.hd-list-link:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.hd-list-link {
+  text-decoration: none;
+  color: black;
+}
+
+.hd-icon {
+  margin-left: auto;
+}
+
+.fav-list {
+  display: flex;
+  list-style: none;
+  margin: 0 33px 0 209px;
+}
+
+.fav:first-child {
+  margin-right: 21px;
+}
+
+.hd-btn {
+  width: 160px;
+  height: 37px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756257;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  margin-right: 50px;
+}
+/* HEADER END */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: 485px;
+  background-image: url(../image/bg/index-background.png);
+}
+
+
+
+.welcome {
+  margin-top: 51px;
+}
+
+.descr-text {
+  margin-top: 11px;
+}
+
+.sedona {
+  margin-top: 53px;
+}
+/* BANNER END */
+.benefits-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 63px;
+  color: black;
+}
+
+.benefits-descr {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 25px;
+}
+/* B-TITLE END */
+.section-n1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 79px;
+}
+
+.n1 {
+  background-color: #83B3D3;
+  color: white;
+  width: 400px;
+}
+
+.nomber-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 98px;
+  width: 400px;
+}
+
+.nomber {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.nomber-descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 77px;
+}
+
+.n1-list {
+  text-align: center;
+  align-items: center;
+  width: 400px;
+}
+
+.n1-title-list {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 23px;
+} 
+
+.n1-descr-list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 79px;
+}
+
+.housing {
+  background: rgba(131, 179, 211, 0.12);}
+
+.housing-icon {
+  margin-top: 89px;
+}
+
+.food {
+  background-color: white;
+}
+
+.food-icon {
+  margin-top: 91px;
+}
+
+.souvenirs {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.souvenirs-icon {
+  margin-top: 85px;
+}
+/* N1 END */
+.section-n2 {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.n2-img {
+  width: 800px;
+}
+
+.n4 {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.n3, .n5 {
+  background: rgba(131, 179, 211, 0.12);
+}
+/* N2 END */
+.hotel-search {
+  text-align: center;
+}
+
+.hotel-search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 91px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.hotel-search-descr {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hotel-search-btn {
+  width: 575px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  border-radius: 10px;
+  margin: 70px 0 91px 0;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #756257;
+  border: none;
+}
+
+.hotel-search-link {
+  text-decoration: none;
+  color: white;
+}
+/* HOTEL-SEARCH END */
+.mailing_list {
+  text-align: center;
+  background-image: url(../image/bg/background.png);
+  background-repeat: no-repeat; 
+  color: white
+}
+
+.mailing_list-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 94px;
+}
+
+.mailing_list-discr {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.mailing_list-input {
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+}
+
+.input-mail {
+  background-color: #F2F2F2;
+  border-radius: 10px 0 0 10px;
+  box-shadow: none;
+  border: none;
+  width: 600px;
+  height: 60px;
+  padding-left: 22px;
+}
+
+/* .mailing_list-btn {
+  background: #83B3D3;
+  border-radius: 0px 10px 10px 0px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  width: 200px;
+  height: 60px;
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 25px 0 94px 0;
+} */
+
+.mailing_list-btn {
+  width: 190px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  box-shadow: none;
+  margin: 0 0 94px 0;
+
+}
+/* mailing_list END*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  margin-left: 72px;
+}
+
+.social-list:not(.list:last-child) {
+  margin-left: 30px;
+}
+
+.phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.accademy {
+  margin-right: 72px;
+  
+}
