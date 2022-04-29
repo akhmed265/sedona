@@ -1,121 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<title>Document</title>
+<html lang="en">  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/action.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Document</title>
+  </head>
 
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      <div class="hd-menu">
-        <div class="hd-main">
-          <ul class="hd-menu-list">
-            <li class="list"><a href="#" class="hd-list-link">Главная</a></li>
-            <li class="list"><a href="#" class="hd-list-link">О Седоне</a></li>
-            <li class="list"><a href="#" class="hd-list-link">Гостиницы</a></li>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <nav class="main-menu">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link active">Главная</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О Седоне</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="./hotels.html" class="main-menu__link">Гостиницы</a>
+            </li>
           </ul>
-        </div>
-        <img src="./image/icon/sedona.svg" alt="sedona-icon" class="hd-icon">
-        <ul class="fav-list">
-          <li><img src="./image/icon/loupe.svg" alt="лупа" class="fav"></li>
-          <li><img src="./image/icon/heart.svg" alt="сердце" class="fav"></li>
-        </ul>
-        <button class="btn hd-btn">Хочу сюда!</button>
-      </div>
-    </header>
+        </nav>
 
-    <section class="banner">
-      <img src="./image/text/welcome.svg" alt="welcome" class="img-text welcome">
-      <img src="./image/text/deskr.svg" alt="#" class="img-text descr-text">
-      <img src="./image/text/name.svg" alt="sedona" class="img-text sedona">
-    </section>
-    <div class="benefits">
-      <h1 class="benefits-title">Седона — небольшой городок в Аризоне,<br>
-        заслуживающий большего!</h1>
-      <div class="benefits-descr">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</div>  
+        <ul class="header-actions">
+          <li class="header-actions__item">
+            <button
+              type="button"
+              class="header-actions__icon-btn header-actions__icon-btn_search"
+            ></button>
+          </li>
+
+          <li class="header-actions__item">
+            <button
+              type="button"
+              class="header-actions__icon-btn header-actions__icon-btn_favorite"
+            >
+              <span class="header-actions__badge">1243</span>
+            </button>
+          </li>
+
+          <li class="header-actions__item">
+            <button class="btn header-actions__btn">Хочу сюда!</button>
+          </li>
+        </ul>
+      </header>
+
+      <section class="banner">
+        <img
+          src="./image/text/welcome.svg"
+          alt="welcome"
+          class="img-text welcome"
+        />
+        <img src="./image/text/deskr.svg" alt="#" class="img-text descr-text" />
+        <img src="./image/text/name.svg" alt="sedona" class="img-text sedona" />
+      </section>
+      <div class="benefits">
+        <h1 class="benefits-title">
+          Седона — небольшой городок в Аризоне,<br />
+          заслуживающий большего!
+        </h1>
+        <div class="benefits-descr">
+          Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
+        </div>
+      </div>
+      <section class="section-n1">
+        <div class="nomber-item n1">
+          <h2 class="nomber-title">
+            Настоящий<br />
+            городок
+          </h2>
+          <div class="nomber">— №1 —</div>
+          <div class="nomber-descr">
+            Седона — не аттракцион<br />для туристов, там течёт<br />
+            своя жизнь
+          </div>
+        </div>
+        <img src="./image/photo/photo-1.png" alt="image" class="n1-img" />
+        <div class="housing n1-list">
+          <img
+            src="./image/icon/home-icon.svg"
+            alt="home"
+            class="housing-icon"
+          />
+          <div class="n1-title-list">Жильё</div>
+          <div class="n1-descr-list">
+            Рекомендуем пожить<br />
+            в настоящем мотеле,<br />
+            всё как в кино!
+          </div>
+        </div>
+        <div class="food n1-list">
+          <img
+            src="./image/icon/burger-icon.svg"
+            alt="burger"
+            class="food-icon"
+          />
+          <div class="n1-title-list">Еда</div>
+          <div class="n1-descr-list">
+            Всегда заказывайте<br />
+            топовый фирменный бургер,<br />
+            вы не разочаруетесь!
+          </div>
+        </div>
+        <div class="souvenirs n1-list">
+          <img
+            src="./image/icon/gift-icon.svg"
+            alt="gift"
+            class="souvenirs-icon"
+          />
+          <div class="n1-title-list">Сувениры</div>
+          <div class="n1-descr-list">
+            Не только китайского,<br />
+            но и настоящего местного<br />
+            производства!
+          </div>
+        </div>
+      </section>
+      <section class="section-n2">
+        <img src="./image/photo/photo-2.png" alt="image" class="n2-img" />
+        <div class="nomber-item n1">
+          <h2 class="nomber-title">
+            Там есть<br />
+            мост дьявола
+          </h2>
+          <div class="nomber">— №2 —</div>
+          <div class="nomber-descr">
+            Да, по нему можно пройти! <br />
+            Если вы осмелитесь,<br />
+            разумеется
+          </div>
+        </div>
+        <div class="nomber-item n3">
+          <h2 class="nomber-title">
+            Небольшая<br />
+            площадь
+          </h2>
+          <div class="nomber">— №3 —</div>
+          <div class="nomber-descr">
+            Все достопримечательности<br />
+            находятся очень близко
+          </div>
+        </div>
+        <div class="nomber-item n4">
+          <h2 class="nomber-title">
+            Красивая<br />
+            дорога
+          </h2>
+          <div class="nomber">— №4 —</div>
+          <div class="nomber-descr">
+            Ехать в Седону из Лас-Вегаса<br />
+            совсем не скучно!
+          </div>
+        </div>
+        <div class="nomber-item n5">
+          <h2 class="nomber-title">
+            Мало<br />
+            туристов
+          </h2>
+          <div class="nomber">— №5 —</div>
+          <div class="nomber-descr">
+            Большинство едет в Гранд<br />
+            Каньон и толпится там
+          </div>
+        </div>
+      </section>
+      <section class="hotel-search">
+        <h2 class="hotel-search-title">Заинтересовались?</h2>
+        <div class="hotel-search-descr">
+          Укажите предполагаемые даты поездки,<br />
+          и мы покажем вам лучшие предложения гостиниц в Седоне
+        </div>
+        <button class="hotel-search-btn">
+          <a href="#" class="hotel-search-link">ПОИСК ГОСТИНИЦЫ В седоне</a>
+        </button>
+      </section>
+      <section class="mailing_list">
+        <h2 class="mailing_list-title">Подпишитесь на рассылку</h2>
+        <div class="mailing_list-discr">
+          Только полезная информация и никакого спама,<br />
+          честное бойскаутское!
+        </div>
+        <div class="mailing_list-input">
+          <input type="text" placeholder="Ваш e-mail" class="input-mail" />
+          <button class="mailing_list-btn">Подписаться</button>
+        </div>
+      </section>
+      <footer>
+        <ul class="social">
+          <li class="social-list">
+            <a href="#" class="social-list-active"><img src="./image/icon/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li class="social-list">
+            <a href="#" class="social-list-active"
+              ><img src="./image/icon/facebook.svg" alt="facebook" 
+            /></a>
+          </li>
+          <li class="social-list">
+            <a href="#" class="social-list-active"><img src="./image/icon/youtube.svg" alt="youtube" /></a>
+          </li>
+        </ul>
+        <label for="phone" class="phone">+7 (812)-812-12-12</label>
+        <img src="./image/text/html.svg" alt="accademy" class="accademy" />
+      </footer>
     </div>
-    <section class="section-n1">
-      <div class="nomber-item n1">
-      <h2 class="nomber-title">Настоящий<br>
-        городок</h2>
-      <div class="nomber">— №1 —</div>
-      <div class="nomber-descr">Седона — не аттракцион<br>для туристов, там течёт<br>
-        своя жизнь</div>
-      </div>
-      <img src="./image/photo/photo-1.png" alt="image" class="n1-img">
-      <div class="housing n1-list">
-        <img src="./image/icon/home-icon.svg" alt="home" class="housing-icon">
-        <div class="n1-title-list">Жильё</div>
-        <div class="n1-descr-list">Рекомендуем пожить<br> 
-          в настоящем мотеле,<br>
-          всё как в кино!</div>
-      </div>  
-      <div class="food n1-list">
-        <img src="./image/icon/burger-icon.svg" alt="burger" class="food-icon">
-        <div class="n1-title-list">Еда</div>
-        <div class="n1-descr-list">Всегда заказывайте<br>
-          топовый фирменный бургер,<br> вы не разочаруетесь!</div>
-      </div>
-      <div class="souvenirs n1-list">
-        <img src="./image/icon/gift-icon.svg" alt="gift" class="souvenirs-icon">
-      <div class="n1-title-list">Сувениры</div>
-      <div class="n1-descr-list">Не только китайского,<br>
-        но и настоящего местного<br> производства!</div>
-      </div>
-    </section>
-    <section class="section-n2">
-      <img src="./image/photo/photo-2.png" alt="image" class="n2-img">
-      <div class="nomber-item n1">
-        <h2 class="nomber-title">Там есть<br> мост дьявола</h2>
-        <div class="nomber">— №2 —</div>
-        <div class="nomber-descr">Да, по нему можно пройти! <br> Если вы осмелитесь,<br> разумеется</div>
-      </div>
-      <div class="nomber-item n3">
-        <h2 class="nomber-title">Небольшая<br> площадь</h2>
-        <div class="nomber">— №3 —</div>
-        <div class="nomber-descr">Все достопримечательности<br> находятся очень близко</div>
-      </div>
-      <div class="nomber-item n4">
-        <h2 class="nomber-title">Красивая<br> дорога</h2>
-        <div class="nomber">— №4 —</div>
-        <div class="nomber-descr">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</div>
-        </div>
-      <div class="nomber-item n5">
-        <h2 class="nomber-title">Мало<br> туристов</h2>
-        <div class="nomber">— №5 —</div>
-        <div class="nomber-descr">Большинство едет в Гранд<br> Каньон и толпится там</div>
-      </div>  
-    </section>
-    <section class="hotel-search">
-      <h2 class="hotel-search-title">Заинтересовались?</h2>
-      <div class="hotel-search-descr">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне
-        </div>
-      <button class="hotel-search-btn"><a href="#" class="hotel-search-link">ПОИСК ГОСТИНИЦЫ В седоне</a> </button>
-    </section>
-    <section class="mailing_list">
-      <h2 class="mailing_list-title">Подпишитесь на рассылку</h2>
-      <div class="mailing_list-discr">Только полезная информация и никакого спама,<br>
-        честное бойскаутское!</div>
-      <div class="mailing_list-input">
-        <input type="text" placeholder="Ваш e-mail" class="input-mail">
-        <button class="mailing_list-btn">Подписаться</button>
-      </div>
-    </section>
-    <footer>
-      <ul class="social">
-        <li class="social-list"><a href="#"><img src="./image/icon/twitter.svg" alt="twitter"></a> </li>
-        <li class="social-list"><a href="#"><img src="./image/icon/facebook.svg" alt="facebook"></a></li>
-        <li class="social-list"><a href="#"><img src="./image/icon/youtube.svg" alt="youtube"></a></li>
-      </ul>
-      <label for="phone" class="phone">+7 (812)-812-12-12</label>
-      <img src="./image/text/html.svg" alt="accademy" class="accademy">
-    </footer>
-  </div>
-</body>
+
+    <script src="./js/script.js"></script>
+  </body>
 </html>
