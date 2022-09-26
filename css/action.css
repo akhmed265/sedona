@@ -10,7 +10,7 @@
 
 .main-menu__link:active {
   color: #756257;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .header-actions__btn:hover {
@@ -27,7 +27,7 @@
 
 .header-actions__btn:active {
   background-color: #615048;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .hotel-search-btn:hover {
@@ -42,7 +42,7 @@
 
 .hotel-search-btn:active {
   background-color: #615048;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .input-mail:hover {
@@ -54,11 +54,11 @@
 }
 
 .input-mail:active {
-  border: 2px solid #000000;
+  border: 3px solid #000000;
 }
 
 .input-mail:invalid {
-  border: 2px solid #FF5757;
+  border: 3px solid #FF5757;
 }
 
 .mailing_list-btn:hover {
@@ -70,13 +70,12 @@
 }
 
 .mailing_list-btn:active {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .social-list-active:focus {
   border: 3px solid #83B3D3;
   border-radius: 10px;
-  padding: 5px;  
 }
 
 .phone:hover {
@@ -92,7 +91,7 @@
 
 .phone:active {
   color: #756257;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .breadcrumbs__link:hover {
@@ -105,7 +104,7 @@
 }
 
 .breadcrumbs__link:active {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .breadcrumbs__text:hover {
@@ -118,7 +117,7 @@
 }
 
 .breadcrumbs__text:active {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .min-price:hover {
@@ -181,7 +180,7 @@
 }
 
 .price-button__reset:active {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .sort-list:hover {
@@ -193,7 +192,7 @@
 }
 
 .sort-list:active {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .sort-mode__buttom:hover {
@@ -217,7 +216,7 @@
 }
 
 .hotel-list_photo:active {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .hotel-list__name:hover {
@@ -231,37 +230,35 @@
 
 .hotel-list__name:active {
   color: #756257;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
-.button-info:hover {
+.hotel-card__more-btn:hover {
   background-color: #615048;
 }
 
-.button-info:focus {
-  background: #615048;
+.hotel-card__more-btn:focus {
+  background-color: #615048;
   border: 3px solid #83B3D3;
 }
 
-.button-info:active {
-  background: #615048;
-  opacity: 0.3;
+.hotel-card__more-btn:active {
+  background-color: #615048;
+  opacity: 0.8;
 }
 
-.button-like:hover {
-  background: #68A2CA;
-  border: 1px solid #756257;
+.hotel-card__favorite-btn:hover {
+  background-color: #68A2CA;
 }
 
-.button-like:focus {
-  background: #68A2CA;
+.hotel-card__favorite-btn:focus {
+  background-color: #68A2CA;
   border: 3px solid #756257;
 }
 
-.button-like:active {
+.hotel-card__favorite-btn:active {
   background-color: #68A2CA;
-  border: 1px solid #756257;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .button-liked:hover {
@@ -269,11 +266,19 @@
 }
 
 .button-liked:focus {
-  background: #6C9E42;
+  background-color: #6C9E42;
   border: 3px solid #756257;
 }
 
 .button-liked:active {
-  background: #6C9E42;
-  opacity: 0.3;
+  background-color: #6C9E42;
+  opacity: 0.8;
+}
+
+.load-more:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-number:hover {
+  background-color: #68A2CA;
 }

@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/action.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <title>Document</title>
+  <title>Sedona</title>
 </head>
 <body>
   <div class="wrapper">
@@ -130,7 +128,7 @@
       <div class="sorting">
         <h2 class="sorting-title">Найдено гостиниц: 38</h2>
         
-        <select name="sort-list" size="1" id="" class="sort-list">
+        <select class="sort-list" name="sort-list" size="1" id="">
           <option value="Сначала дешёвые">Сначала дешёвые</option>
           <option value="Сначала дорогие">Сначала дорогие</option>
           <option value="По рейтингу">По рейтингу</option>
@@ -150,18 +148,6 @@
             <img src="./image/hotels-img/icons/mode-list.svg" alt="" class="sort-mode-icon">
           </button>
         </div>
-
-        <!-- <ul class="sort-mode">
-          <li>
-            <img src="./image/hotels-img/icons/mode-tile.svg" alt="" class="sort-mode-icon">
-          </li>
-          <li>
-            <img src="./image/hotels-img/icons/mode-slideshow.svg" alt="" class="sort-mode-icon">
-          </li>
-          <li>
-            <img src="./image/hotels-img/icons/mode-list.svg" alt="" class="sort-mode-icon">
-          </li>
-        </ul> -->
       </div>
     
       <div class="hotel-list">
@@ -173,20 +159,28 @@
             <span class="hotel-list__price">От 4000 ₽</span>
           </div>
     
-          <div class="hotel-list__button">
-            <button class="button-info">подробнее</button>
-            <button class="button-like">В избранное</button>
+          <div class="hotel-card__actions">
+            <button type="button" class="hotel-card__more-btn">подробнее</button>
+            <button type="button" class="hotel-card__favorite-btn">В избранное</button>
           </div>
         </div>
     
         <div class="rating">
-          <div class="star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-          </div>
-          <span class="rating-text">Рейтинг: 8,5</span>
+          <ul class="rating__list">
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+          </ul>
+          <span class="rating__text">Рейтинг: 8,5</span>
         </div>
       </div>
     
@@ -199,19 +193,25 @@
             <span class="hotel-list__price">От 3000 ₽</span>
           </div>
     
-          <div class="hotel-list__button">
-            <button class="button-info">подробнее</button>
-            <button class="button-like">В избранное</button>
+          <div class="hotel-card__actions">
+            <button type="button" class="hotel-card__more-btn">подробнее</button>
+            <button type="button" class="hotel-card__favorite-btn">В избранное</button>
           </div>
         </div>
     
         <div class="rating">
-          <div class="star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-          </div>
-          <span class="rating-text">Рейтинг: 8,9</span>
+          <ul class="rating__list">
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+          </ul>
+          <span class="rating__text">Рейтинг: 8,9</span>
         </div>
       </div>
     
@@ -224,18 +224,22 @@
             <span class="hotel-list__price">От 2000 ₽</span>
           </div>
     
-          <div class="hotel-list__button">
-            <button class="button-info">подробнее</button>
-            <button class="button-like">В избранном</button>
+          <div class="hotel-card__actions">
+            <button type="button" class="hotel-card__more-btn">подробнее</button>
+            <button type="button" class="hotel-card__favorite-btn">В избранном</button>
           </div>
         </div>
     
         <div class="rating">
-          <div class="star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-          </div>
-          <span class="rating-text">Рейтинг: 9,2</span>
+          <ul class="rating__list">
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+          </ul>
+          <span class="rating__text">Рейтинг: 9,2</span>
         </div>
       </div>
     
@@ -249,17 +253,21 @@
           </div>
     
           <div class="hotel-list__button">
-            <button class="button-info">подробнее</button>
-            <button class="button-like">В избранное</button>
+            <button type="button" class="hotel-card__more-btn">подробнее</button>
+            <button type="button" class="hotel-card__favorite-btn">В избранное</button>
           </div>
         </div>
     
         <div class="rating">
-          <div class="star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-            <img src="./image/hotels-img/icons/star.svg" alt="" class="rating-star">
-          </div>
-          <span class="rating-text">Рейтинг: 9,2</span>
+          <ul class="rating__list">
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+            <li class="rating__item">
+              <img src="./image/hotels-img/icons/star.svg" alt="">
+            </li>
+          </ul>
+          <span class="rating__text">Рейтинг: 9,2</span>
         </div>
       </div>
     </div>
