@@ -21,9 +21,12 @@
   --color-invalid: #FF5757;
 }
 
-ul {
+ul, ol {
   list-style: none;
-}
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
 
 a {
   text-decoration: none;
@@ -96,7 +99,8 @@ body {
 }
 
 .header-actions__item:nth-child(2) {
-  margin: 0 33px 0px 21px;
+  margin-right: 33px;
+  margin-left: 21px;
 }
 
 .header-actions__icon-btn {
@@ -446,7 +450,7 @@ body {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: var(--color-green);
+  color: var(--color-dark);
   cursor: pointer;
 }
 
