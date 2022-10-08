@@ -510,6 +510,8 @@ body {
   margin-right: 18px;
   padding: 0 16px 3px 3px;
   position: relative;
+  outline: none;
+  border-radius: 4px;
 }
 
 .breadcrumbs__link_home::after {
@@ -1083,11 +1085,6 @@ body {
   opacity: 0.6;
 }
 
-.breadcrumbs__link:focus {
-  border: 3px solid var(--color-blue);
-  border-radius: 4px;
-}
-
 .breadcrumbs__link:active {
   opacity: 0.8;
 }
@@ -1098,7 +1095,6 @@ body {
 
 .breadcrumbs__text:focus {
   border: 3px solid var(--color-blue);
-  border-radius: 4px;
 }
 
 .breadcrumbs__text:active {
@@ -1107,10 +1103,6 @@ body {
 
 .min-price:hover {
   opacity: 0.6;
-}
-
-.min-price:focus {
-  border: 3px solid var(--color-blue);
 }
 
 .min-price:active {
