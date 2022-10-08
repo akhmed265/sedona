@@ -88,7 +88,7 @@ body {
 .page-header::after {
   position: absolute;
   content: "";
-  background-image: url(../image/icon/sedona.svg);
+  background-image: url(../images/icon/sedona.svg);
   width: 138px;
   height: 70px;
   top: 0;
@@ -118,12 +118,12 @@ body {
 }
 
 .header-actions__icon-btn_search {
-  background-image: url(../image/icon/loupe.svg);
+  background-image: url(../images/icon/loupe.svg);
   margin-left: 103px;
 }
 
 .header-actions__icon-btn_favorite {
-  background-image: url(../image/icon/heart.svg);
+  background-image: url(../images/icon/heart.svg);
 }
 
 .header-actions__badge {
@@ -164,7 +164,7 @@ body {
   align-items: center;
   width: 1200px;
   height: 485px;
-  background-image: url(../image/bg/index-background.png);
+  background-image: url(../images/bg/index-background.png);
 }
 
 .banner__welcome-img {
@@ -368,7 +368,7 @@ body {
 
 .mailing_list {
   text-align: center;
-  background-image: url(../image/bg/background.png);
+  background-image: url(../images/bg/background.png);
   background-repeat: no-repeat;
   color: var(--color-white);
 }
@@ -477,7 +477,7 @@ body {
 /*intro*/
 
 .intro {
-  background-image: url(../image/hotels-img/bg/catalog-background-1.svg);
+  background-image: url(../images/hotels-img/bg/catalog-background-1.svg);
   padding: 0 72px;
   background-repeat: no-repeat;
 }
@@ -496,7 +496,7 @@ body {
 }
 
 .breadcrumbs__link_home {
-  background-image: url(../image/hotels-img/icons/home-1.svg);
+  background-image: url(../images/hotels-img/icons/home-1.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 12px;
@@ -509,7 +509,7 @@ body {
 .breadcrumbs__link_home::after {
   content: "";
   position: absolute;
-  background-image: url(../image/hotels-img/icons/arrow.svg);
+  background-image: url(../images/hotels-img/icons/arrow.svg);
   background-repeat: no-repeat;
   width: 5px;
   height: 8px;
@@ -581,7 +581,7 @@ body {
 .infrastructure__form input:checked + label::before {
   content: "";
   position: absolute;
-  background-image: url(../image/hotels-img/input/checkbox-checked.svg);
+  background-image: url(../images/hotels-img/input/checkbox-checked.svg);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -590,7 +590,7 @@ body {
 .infrastructure__form label::before {
   content: "";
   position: absolute;
-  background-image: url(../image/hotels-img/input/checked-off.svg);
+  background-image: url(../images/hotels-img/input/checked-off.svg);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -626,7 +626,7 @@ body {
 .type-house__form label::before {
   content: "";
   position: absolute;
-  background-image: url(../image/hotels-img/input/radio-button.svg);
+  background-image: url(../images/hotels-img/input/radio-button.svg);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -638,7 +638,7 @@ body {
 .type-house__form input:checked + label::before {
   content: "";
   position: absolute;
-  background-image: url(../image/hotels-img/input/radio-button-checked.svg);
+  background-image: url(../images/hotels-img/input/radio-button-checked.svg);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
